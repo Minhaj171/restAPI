@@ -1,5 +1,11 @@
 package com.example.restapi.model;
 
+import android.widget.ImageView;
+
+import androidx.databinding.BindingAdapter;
+
+import com.bumptech.glide.Glide;
+import com.example.restapi.R;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
@@ -123,5 +129,15 @@ public class PlayerInformation {
 
     public void setPosition(List<Position> position) {
         this.position = position;
+    }
+
+    @BindingAdapter("android:playerIcon")
+    public static void loadImage(ImageView view, String imageUrl) {
+        Glide.with(view)
+                .load(imageUrl)
+                .placeholder(R.drawable.ic_placeholder)
+                .error(R.drawable.ic_error)
+                .fitCenter()
+                .into(view);
     }
 }

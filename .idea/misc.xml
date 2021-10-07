@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/drawable/ic_error.xml" value="0.8392857142857143" />
+        <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/drawable/ic_placeholder.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/layout/continental_row.xml" value="0.1" />
         <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/layout/player_bio_fragment.xml" value="0.178125" />
         <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/layout/player_row.xml" value="0.1921875" />
         <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/layout/team_fragment.xml" value="0.1921875" />
+        <entry key="..\:/Users/ffcav/Personal Project/restAPI/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10740740740740741" />
       </map>
     </option>
   </component>
